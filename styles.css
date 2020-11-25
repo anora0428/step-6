@@ -1,0 +1,144 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #4D515D;
+ 
+
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  
+}
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  text-decoration: none;
+
+}
+
+.background {
+  height: 1000px;
+
+  
+}
+.card {
+  background-color: #fff;
+  width: 1250px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.left-block {
+ 
+  padding: 25px;
+}
+.left-block h1 {
+  color: #000000;
+  font-size: 60px;
+  
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.left-block p {
+  color: #AFAFB3;
+  font-size: large;
+  margin-bottom: 70px;
+ 
+  
+}
+.social {
+ margin-bottom: 95px;
+
+
+}
+.social h3 {
+  color: #BAC3C5;
+  padding: 28px 7px;
+  border: 2px solid #F2F3F5;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #EEF0F3;
+  position: relative;
+ 
+  
+
+}
+
+.social a {
+  color: #BAC3C5;
+  transition: all ease 0.5s;
+}
+.social a:hover {
+  color: #4D515D;
+  
+}
+.social .google::before {
+  content: '';
+  background-image: url('./img/googleplus.svg');
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 30px; 
+  display: flex;
+  align-items: center;
+  bottom: 17px;
+  
+}
+.social .facebook::before {
+  content: '';
+  background-image: url('./img/facebook.svg');
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 30px;
+  bottom: 24px;
+ 
+}
+.social .twitter::before {
+  content: '';
+  background-image: url('./img/twitter.svg');
+  width: 30px; 
+  height: 35px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 30px; 
+  bottom: 20px;
+  
+}
+
+
+
+
+
+.social h3:hover {
+  color: #BAC3C5;
+  background: #FFFFFF;
+  border: 1px solid #928B8C;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  transition: all ease 0.5s;
+  cursor: pointer;
+  
+
+}
+
+
+.bottom {
+  padding-top: 0px;
+}
+.send {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
